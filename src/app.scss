@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	&:disabled {
+		cursor: not-allowed;
+	}
+	> img {
+		-webkit-user-drag: none;
+	}
+}
+
+:root {
+	--main-bg: #a2b2da;
+	--primary-bg: #e0eaff;
+	--primary-bg-hover: #a8c4ffb2;
+	--header: #2d2f5f;
+	--text: #1b2740;
+	--text-header: #e0eaff;
+	--separator: #9291c9;
+	--error: red;
+
+	--primary: #2d2f5f;
+	--primary-hover: #5351be;
+	--secondary: white;
+	--secondary-hover: rgb(245, 245, 245);
+}
+
+/* Roboto */
+@font-face {
+	font-family: "Roboto";
+	src: url("/fonts/Roboto-Regular.ttf") format("font/ttf");
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("/fonts/Roboto-Bold.ttf") format("font/ttf");
+	font-weight: 600;
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("/fonts/Roboto-LightItalic.ttf") format("font/ttf");
+	font-weight: 300;
+}
+
+/* PT-Sans */
+@font-face {
+	font-family: "PT-Sans";
+	src: url("/fonts/PTSans-Regular.ttf") format("font/ttf");
+}
+@font-face {
+	font-family: "PT-Sans";
+	src: url("/fonts/PTSans-Bold.ttf") format("font/ttf");
+	font-weight: 700;
+}
+
+/* AlegreyaSans */
+@font-face {
+	font-family: "AlegreyaSans";
+	src: url("/fonts/AlegreyaSans-Regular.ttf") format("font/ttf");
+}
+@font-face {
+	font-family: "AlegreyaSans";
+	src: url("/fonts/AlegreyaSans-Medium.ttf") format("font/ttf");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "AlegreyaSans";
+	src: url("/fonts/AlegreyaSans-Bold.ttf") format("font/ttf");
+	font-weight: 700;
+}
